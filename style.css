@@ -1,0 +1,86 @@
+body {
+    background-color:aqua;
+    background: linear-gradient(to bottom,white,#FFE5B4,#FFCBA4,#FFB398,white);
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #79280b;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #FFCBA4;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    color: #79280b;
+}
+
+input:focus {
+    background-color: #ffe5b422;
+    border-color: #FFB398;
+    outline: none;
+}
+
+button {
+    background-color: #79280b;
+    color: white; 
+    border-color: #79280b;
+    border-radius: 4px;
+    font-size: 25px;
+    width: 10%;
+}
+
+button:hover {
+    background-color: #FFB398;
+}
+
+#errorMessage {
+    color: red;
+    font-size: 8px;
+}
+
+#daftar {
+    list-style: none;
+   
+}
+
+#daftar li {
+    margin-bottom: 10px;
+    color: dimgray;
+    background-color: white;
+    width: 20%;
+    border-radius: 15px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+}
+
+.invalid {
+    border-color: red;
+}
+
+.valid {
+    border-color: #FFB398;
+}
